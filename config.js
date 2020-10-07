@@ -28,13 +28,12 @@ module.exports = {
   author: {
     name: "Ewan Tindale",
     photo: "/photo.jpg",
-    bio:
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    bio: "Software Engineer trying out this blogging thing...",
     contacts: {
       email: "",
       facebook: "",
       telegram: "",
-      twitter: "",
+      twitter: "ewan_tindale",
       github: "ewantindale",
       rss: "",
       vkontakte: "",
