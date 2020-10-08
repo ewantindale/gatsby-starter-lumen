@@ -13,7 +13,7 @@ description: "Learn how to build a simple fullstack web application using Node.j
 socialImage: "/photo.jpg"
 ---
 
-# Connecting the frontend to the backend
+# Connect the frontend to the backend
 
 In the [first part](/posts/fullstack-react-nodejs-tutorial) of this tutorial we created our frontend application. Then in the [second part](/posts/fullstack-react-nodejs-tutorial-part2) we created our backend.
 
@@ -166,7 +166,7 @@ We've created three new actions, each of which map to a stage of the request we'
 * **fetchContactsSucccess** sets loading to false, error back to an empty string and populates our local contacts array with the list of contacts we've received from the API.
 * **fetchContactsError** sets loading to false and error to a generic error message to indicate that the request failed.
 
-We've also created a new function called fetchContactsAsync. This is called a 'thunk' from the package [redux-thunk](https://github.com/reduxjs/redux-thunk), a special action creator that returns a function instead of an action, and can dispatch its own actions.
+We've also created a new function called fetchContactsAsync. This is called a 'thunk', a special action creator that returns a function instead of an action, and can dispatch its own actions.
 
 Here we're using it to dispatch **fetchContactsStart** when we begin our request, and then conditionally dispatch **fetchContactsSucccess** or **fetchContactsError** depending on the response we receive from the backend.
 

@@ -13,7 +13,7 @@ description: "Learn how to build a simple fullstack web application using Node.j
 socialImage: "/photo.jpg"
 ---
 
-# Introduction
+# Create the backend
 
 In the [first part](/posts/fullstack-react-nodejs-tutorial-part1) of this tutorial we created our frontend application which allows users to create, update and delete contacts from the list.
 

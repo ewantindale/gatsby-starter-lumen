@@ -32,8 +32,8 @@ You can view the full source code for this application [here](https://github.com
 There are three main steps we are going to take to build our application:
 
 - Create the frontend (Part 1 - you are here!)
-- Create the backend ([Part 2](/fullstack-react-nodejs-tutorial-part2))
-- Connect the frontend and backend ([Part 3](/fullstack-react-nodejs-tutorial-part3))
+- Create the backend ([Part 2](/posts/fullstack-react-nodejs-tutorial-part2))
+- Connect the frontend and backend ([Part 3](/posts/fullstack-react-nodejs-tutorial-part3))
 
 # Create the frontend
 
