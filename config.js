@@ -3,9 +3,8 @@
 module.exports = {
   url: "https://lumen.netlify.com",
   pathPrefix: "/",
-  title: "Blog by Ewan Tindale",
-  subtitle:
-    "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  title: "Ewan Tindale | Software Engineer",
+  subtitle: "Software Engineer trying out this blogging thing...",
   copyright: "© All rights reserved.",
   disqusShortname: "",
   postsPerPage: 4,
