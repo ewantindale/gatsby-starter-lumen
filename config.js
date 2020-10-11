@@ -1,14 +1,14 @@
 "use strict";
 
 module.exports = {
-  url: "https://lumen.netlify.com",
+  url: "https://www.ewantindale.com",
   pathPrefix: "/",
   title: "Ewan Tindale | Software Engineer",
   subtitle: "Software Engineer trying out this blogging thing...",
   copyright: "© All rights reserved.",
   disqusShortname: "",
   postsPerPage: 4,
-  googleAnalyticsId: "UA-73379983-2",
+  googleAnalyticsId: "UA-180334468-1",
   useKatex: false,
   menu: [
     {
