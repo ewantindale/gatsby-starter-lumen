@@ -1,7 +1,13 @@
-@import '../../assets/scss/variables';
-@import '../../assets/scss/mixins';
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
 
 .post {
+  &__email-signup-form {
+    max-width: $layout-post-width;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
   &__footer {
     max-width: $layout-post-width;
     margin: 0 auto;
@@ -34,13 +40,15 @@
     &:focus {
       color: $color-primary;
     }
-
   }
-
 }
 
 @include breakpoint-md {
   .post {
+    &__email-signup-form {
+      padding: 0;
+    }
+
     &__footer {
       padding: 0;
     }
@@ -54,9 +62,7 @@
       max-width: auto;
       margin: 0;
       top: 30px;
-      left: 30px
+      left: 30px;
     }
-
   }
-
 }

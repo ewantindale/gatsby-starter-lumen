@@ -1,0 +1,49 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
+
+.email-signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+  background-color: $color-base;
+
+  &__title {
+    font-size: $typographic-base-font-size * 1.5;
+    font-weight: bold;
+    color: $color-white;
+    margin: 0;
+  }
+
+  &__email-input {
+    @include margin-top(1);
+    @include padding(0.5, 0.5);
+    font-size: $typographic-base-font-size * 1.2;
+
+    width: 300px;
+    text-align: center;
+  }
+
+  &__subscribe-button {
+    @include margin-top(1);
+    @include padding(0.5, 1);
+    text-transform: uppercase;
+    font-size: $typographic-base-font-size * 1.2;
+    background: $color-secondary;
+    border: none;
+    transition: 0.25s ease;
+
+    &:hover {
+      background: lighten($color-secondary, 25);
+    }
+  }
+
+  &__error-message {
+    color: $color-white;
+  }
+
+  &__success-message {
+    color: $color-white;
+  }
+}
