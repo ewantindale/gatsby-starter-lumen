@@ -44,13 +44,17 @@ const EmailSignUpForm = () => {
         Subscribe
       </button>
       {error && (
-        <p className={styles["email-signup-form__error-message"]}>{error}</p>
+        <p
+          className={styles["email-signup-form__error-message"]}
+          dangerouslySetInnerHTML={{ __html: error }}
+        ></p>
       )}
 
       {success && (
-        <p className={styles["email-signup-form__success-message"]}>
-          {success}
-        </p>
+        <p
+          className={styles["email-signup-form__success-message"]}
+          dangerouslySetInnerHTML={{ __html: success }}
+        ></p>
       )}
     </form>
   );
