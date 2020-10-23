@@ -22,6 +22,8 @@ const EmailSignUpForm = () => {
       setError(response.msg);
     } else {
       setSuccess(response.msg);
+
+      window.gtag("event", "sign_up");
     }
   };
   return (
